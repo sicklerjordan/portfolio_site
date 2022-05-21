@@ -1,0 +1,22 @@
+.toggle {
+    position: fixed;
+    color: var(--secondary);
+    margin-top: 240px;
+    transform: rotate(0.25turn);
+    margin-right: 10px;
+    right: 0px;
+    transition: 1s;
+    z-index: 99;
+}
+
+.toggle-mode {
+    color: var(--secondary);
+    position: fixed;
+    margin-top: 200px;
+    font-size: 12px;
+    right: 25px;
+    writing-mode: vertical-lr;
+    transition: 1s;
+    z-index: 99;
+
+}

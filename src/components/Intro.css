@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.app {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+    z-index: 1;
+    position: absolute;
+    }
+     .head {
+       color: white;
+       height: 100%;
+       margin-top: -100px;
+     }
+    
+     .icon {
+       color: white;
+       font-size: 75px;
+       margin-top: 75px;
+       position: absolute;
+     }
+
+     .jay {
+         color: white;
+         font-weight: bold;
+         font-size: 17px;
+         position: absolute;
+         margin-top: 75px;
+     }
+
+     #sickler {
+         color: var(--secondary);
+     }

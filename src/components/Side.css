@@ -1,0 +1,37 @@
+
+
+
+.left-line {
+    border-left: 2px solid white;
+    height: 550px;
+    position: fixed;
+    top: 550px;
+    left: 24px
+    
+}
+
+.right-line {
+    border-left: 2px solid white;
+    height: 550px;
+    position: fixed;
+    top: 550px;
+    right: 24px
+    
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    color: var(--secondary);
+    position: fixed;
+    gap: 20px;
+    font-size: 20px;
+    top: 380px;
+    right: 16px;
+    transition: 1s;
+}
+
+.socials a{
+    color: var(--secondary);
+    transition: 1s;
+}
