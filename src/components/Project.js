@@ -40,7 +40,7 @@ function Work() {
             </div> 
             <div className='card'>
                 <video muted autoStart autoPlay loop>
-                <source autoStart autoPlay  type="video/mp4" src={}/>
+                {//<source autoStart autoPlay  type="video/mp4" src={}/>}
                 </video>
             </div> 
             <div className='card'>
